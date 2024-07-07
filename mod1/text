@@ -1,0 +1,3 @@
+implemente uma classe que represente uma estrutura de dados de lista encadeada, sua implementação aceitara somente inteiros e devera conter os seguintes metodos
+ push - adiciona o no ao fim d alista
+pop - remove o no no fim da lista e retorna o mesmo
