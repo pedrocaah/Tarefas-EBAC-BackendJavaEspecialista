@@ -9,9 +9,8 @@ public class FibonacciTest {
 
     @Test
     public void testFibonacci() {
-        int primeiraSomaFibonacci = 2;
         Assert.assertEquals(55, fibonacci.findElement(10));
-        Assert.assertEquals(0, fibonacci.findElement(primeiraSomaFibonacci-2));
-        Assert.assertEquals(1, fibonacci.findElement(primeiraSomaFibonacci-1));
+        Assert.assertEquals(0, fibonacci.findElement(0));
+        Assert.assertEquals(1, fibonacci.findElement(1));
     }
 }
